@@ -1,0 +1,152 @@
+/*.container{
+  border: 1px solid black;
+  height: 250px;
+  width: 500px;
+
+}*/
+body{
+  width: 100vw;
+background-color: #DCDCDC;
+
+}
+
+.contanier{
+  height: 90vh;
+  width: 80vw;
+}
+
+#logs{
+    width: 100vw;
+  background-color: #696969;
+  height: 50px;
+}
+
+/*styling carousel*/
+.mySlides{
+  width: 60vw;
+  height: 70vh;
+  margin-left:260px;
+  border-radius: 5px;
+
+
+}
+
+
+
+.top{
+/*  float: right;*/
+  height: 50px;
+  width:1200px;
+  background-color:#778899;
+  border: 1px solid black;
+  position: relative;
+  padding:5px;
+
+
+}
+/*#top2{
+  text-align: center;
+
+}*/
+.box{
+  padding-top:15px;
+  margin:10px;
+}
+.container2{
+  border: 1px solid black;
+  float: right;
+  height: 0 0 -1050px 0 ;
+  width: 500px;
+}
+.line{
+  /*border: 1px solid black;*/
+  color:white;
+  margin-left: 25px;
+  padding:10px;
+  width: 350px;
+  display: inline-block;
+}
+header{
+/*  background-color: black;*/
+/*  border-radius: 5px;*/
+/*  padding: 5px;*/
+  padding-top:50px;
+
+}
+header a{
+  color:#A52A2A;
+ text-decoration: none;
+ font-size: 20px;
+ padding:10px;
+}
+
+footer{
+  background-color: black;
+  border-radius: 5px;
+  /*padding: 5px;*/
+  padding-top:40px;
+
+ /* margin-top: 2%;*/
+}
+
+/*login paga css*/
+
+
+/*.blackbar{
+  background-color: black;
+  height:20px;
+  width: 1500px;
+  position: fixed;
+}*/
+/*#hr1{
+  padding-top: 50px;
+}*/
+h1{
+
+  padding-left: 55px;
+  color:white;
+}
+.login{
+  color: white;
+  position: relative;
+  padding-top: 100px;
+  padding-left: 10px;
+
+}
+
+input{
+
+  padding:10px;
+  height: 40px;
+  width: 140px;
+  border-radius: 4px;
+}
+#footer{
+background-color: black;
+height: 0;
+width: 100%;
+position: absolute;
+bottom: 0;
+}
+.icons{
+  list-style: none;
+  text-align: center;
+}
+#footer{
+  background-color: ;
+  text-align:center;
+  text-decoration: none;
+
+}
+/*#fot{
+  color:bla;
+}*/
+/*.container-flu{
+  margin-bottom: 50px;
+}*/
+
+/*.mySlides{
+  height: 550px;
+}*/
+
+
