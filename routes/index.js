@@ -1,20 +1,11 @@
 const router = require('express').Router();
-const model = require('../models/vehicle');
-const { getRandomImage } = require('../services/background');
-const { saveFavorite, getFavorites, deleteFavorite } = require('../models/vehicle')
-
-
 
 router.get('/', (req, res) => {
-  console.log(res.saved);
     res.render('index')
-    // res.json(res.results);
 });
 
 
-router.get('/show', model.searchByName, getFavorites, (req, res) => {
-  console.log('results')
-  console.log('favorites')
+router.get('/show', (req, res) => {
   res.render('show', {
 
     results: res.results || [],
@@ -22,22 +13,10 @@ router.get('/show', model.searchByName, getFavorites, (req, res) => {
   });
 });
 
-router.post('/favorites/:id', deleteFavorite, (req, res) => {
-  // res.render('show', {
-  //   results: res.results || [],
-  //   favorites: res.favorites || [],
-  // });
-  res.redirect('/show');
-});
 
 
-router.post('/favorites', saveFavorite, (req, res) => {
-  // res.render('show', {
-  //   results: res.results || [],
-  //   favorites: res.favorites || [],
-  // });
-   res.redirect('/show');
-});
+
+
 
 
 
