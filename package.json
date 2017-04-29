@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnlovespi/Project-cars.git"
+    "url": "git+https://github.com/johnlovespi/CruzInc.git"
   },
   "author": "John Espinoza",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johnlovespi/Project-cars/issues"
+    "url": "https://github.com/johnlovespi/CruzInc/issues"
   },
-  "homepage": "https://github.com/johnlovespi/Project-cars#readme",
+  "homepage": "https://github.com/johnlovespi/CruzInc#readme",
   "dependencies": {
     "bcryptjs": "^2.3.0",
     "body-parser": "^1.15.2",

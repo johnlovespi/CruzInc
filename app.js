@@ -48,10 +48,10 @@ app.use(methodOverride('_method'));
 
 
 
-const port = process.env.PORT || process.argv[2] || 3000;
+const PORT = process.env.PORT || process.argv[2] || 3000;
 
 
-app.listen(port, console.log('listen to port'),port);
+app.listen(PORT, console.log('Server running on port', PORT));
 
 
 
