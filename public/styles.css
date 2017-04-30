@@ -1,152 +1,240 @@
-/*.container{
-  border: 1px solid black;
-  height: 250px;
-  width: 500px;
-
-}*/
-body{
-  width: 100vw;
-background-color: #DCDCDC;
-
-}
-
-.contanier{
-  height: 90vh;
-  width: 80vw;
-}
-
-#logs{
-    width: 100vw;
-  background-color: #696969;
-  height: 50px;
-}
-
-/*styling carousel*/
-.mySlides{
-  width: 60vw;
-  height: 70vh;
-  margin-left:260px;
-  border-radius: 5px;
+*{
+  margin:0 auto;
 
 
 }
 
 
-
-.top{
-/*  float: right;*/
-  height: 50px;
-  width:1200px;
-  background-color:#778899;
-  border: 1px solid black;
-  position: relative;
-  padding:5px;
-
+.topnav {
+    background-color: #ddd;
+    overflow: hidden;
+    padding-left: 38vw;
+   font-family: 'Anton', sans-serif;
+   font-weight: 300;
 
 }
-/*#top2{
-  text-align: center;
+.topnav a{
+ margin:0px 20px 0px 20px;
+}
 
-}*/
-.box{
-  padding-top:15px;
-  margin:10px;
+.title h1{
+ font-family: 'ABeeZee', sans-serif;
+text-align: center;
+font-weight: 300;
+font-size: 45px;
+color:#34495e;
 }
-.container2{
-  border: 1px solid black;
-  float: right;
-  height: 0 0 -1050px 0 ;
-  width: 500px;
+.title h3{
+  font-family: 'Anton', sans-serif;
+text-align: center;
+font-weight: 300;
+font-size: 20px;
 }
-.line{
-  /*border: 1px solid black;*/
-  color:white;
-  margin-left: 25px;
-  padding:10px;
-  width: 350px;
+.title img{
+  padding-left: 25vw;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #e74c3c;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #ddd;
+    color: black;
+}
+
+section.view1 .social-media {
+  margin-left: 50px;
+  margin-top: 35px;
+  position: absolute;
   display: inline-block;
-}
-header{
-/*  background-color: black;*/
-/*  border-radius: 5px;*/
-/*  padding: 5px;*/
-  padding-top:50px;
 
 }
-header a{
-  color:#A52A2A;
- text-decoration: none;
- font-size: 20px;
- padding:10px;
+
+section.view1{
+  width: 100vw;
+  height: 75vh;
 }
+section.view1 #logo{
+
+      width: 40vw;
+    height: 75vh;
+    padding-left: 60vw;
+
+
+}
+section.view2{
+    background-color: #fbfbfb;
+    height: 113vh;
+    width: 100vw;
+  /*padding: 10px 10px 10px 10px;*/
+
+}
+.pic1{
+  float: left;
+}
+.pic1 img{
+    padding: 32px 20px 10px 18px;
+    border-radius: 37px;
+}
+
+.pic2 img{
+    transform: rotate(90deg);
+    width: 433px;
+    height: 361px;
+    margin: 1vh 129px;
+}
+
+.text_one {
+    color: #34495e;
+    width: 94%;
+    padding-top: 54px;
+    margin: 55px;
+     border: 1px
+}
+
+.text_one h3{
+    padding: 32px 13px 2px 50vw;
+    white-space: normal;
+}
+
+.text_two h3{
+    padding: 25px 58vw 16px 53px;
+    white-space: normal;
+}
+
+.pic2{
+  float: right;
+
+}
+img{
+  border-radius: 1.7px;
+}
+
+h3{
+font-family: 'Quicksand', sans-serif;
+text-align: center;
+font-weight: 300;
+font-size: 17px;
+color:black;
+word-spacing: 4px;
+}
+h4{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
+  color:white;
+}
+
+p{
+     font-size: 70px;
+    padding-top: 37px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+section.view3 {
+    background-color: #dddddd;
+    height: 6vh;
+    width: 15vw;
+    margin: 60px 0px 60px 42vw;
+    border-radius: 2px;
+    box-shadow: 5px 8px 19px lightslategrey;
+
+}
+
+
+.view_left{
+ text-align: center;
+}
+
+.view_left h4{
+  padding-left: 250px;
+
+}
+
+h3#text{
+  color: white;
+}
+
+
+.view3 a{
+
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+    border-radius: 3px;
+
+
+}
+.view3 a:hover{
+   border-radius: 5px;
+    background-color: #e74c3c;
+    color: white;
+
+}
+
+.view_right{
+  float: right;
+  width: 20%;
+  margin-right:16.3%;
+
+}
+
+.view_right #commente{
+  width: 50px;
+  height: 120px;
+  float: right;
+}
+
+
+
 
 footer{
-  background-color: black;
-  border-radius: 5px;
-  /*padding: 5px;*/
-  padding-top:40px;
-
- /* margin-top: 2%;*/
-}
-
-/*login paga css*/
-
-
-/*.blackbar{
-  background-color: black;
-  height:20px;
-  width: 1500px;
-  position: fixed;
-}*/
-/*#hr1{
-  padding-top: 50px;
-}*/
-h1{
-
-  padding-left: 55px;
-  color:white;
-}
-.login{
-  color: white;
-  position: relative;
-  padding-top: 100px;
-  padding-left: 10px;
+  width: 100vw;
+  height: 7vh;
+  background-color: #404040;
 
 }
+footer h5{
+    color: white;
+    float: right;
 
-input{
+    margin: 19px 165px 4px 29px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+}
 
-  padding:10px;
-  height: 40px;
-  width: 140px;
-  border-radius: 4px;
-}
-#footer{
-background-color: black;
-height: 0;
-width: 100%;
-position: absolute;
-bottom: 0;
-}
-.icons{
-  list-style: none;
-  text-align: center;
-}
-#footer{
-  background-color: ;
-  text-align:center;
-  text-decoration: none;
+ .footer_nav a{
+    float: left;
+    display: block;
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
 
 }
-/*#fot{
-  color:bla;
-}*/
-/*.container-flu{
-  margin-bottom: 50px;
-}*/
-
-/*.mySlides{
-  height: 550px;
-}*/
+.footer_nav  a:hover {
+    background-color: #e74c3c;
+    color: white;
+}
 
 
