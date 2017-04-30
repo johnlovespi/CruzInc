@@ -1,0 +1,126 @@
+
+*{
+  margin:0 auto;
+
+
+}
+img{
+       transform: rotate(180deg);
+    border-radius: 7.9px;
+    margin: 11px 0px 54px 83px;
+    box-shadow: -15px -14px 26px lightslategrey;
+}
+
+
+.topnav {
+    background-color: #ddd;
+    overflow: hidden;
+    padding-left: 38vw;
+   font-family: 'Anton', sans-serif;
+   font-weight: 300;
+
+}
+.topnav a{
+ margin:0px 20px 0px 20px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #e74c3c;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #ddd;
+    color: black;
+}
+.title h1{
+ font-family: 'ABeeZee', sans-serif;
+text-align: center;
+font-weight: 300;
+font-size: 45px;
+color:#34495e;
+}
+.title h3{
+  font-family: 'Anton', sans-serif;
+text-align: center;
+font-weight: 300;
+font-size: 20px;
+}
+
+.contact_text h2{
+    color: #7091b1;
+    font-family: 'Anton', sans-serif;
+    font-size: ;
+    margin: 63px 34px 13px 26px;
+
+}
+
+
+.contact_text p{
+ font-family: 'Mallanna', sans-serif;
+    padding: 0px 47px 16px 8px;
+    width: 91%;
+    color: #4a4848;
+
+}
+
+
+
+/*Form for email starts here*/
+
+.form {
+
+    float: right;
+    margin: 38px 22vw 10px 10px;
+
+}
+
+.form p{
+   font-family: 'Mallanna', sans-serif;
+
+}
+
+
+footer{
+  width: 100vw;
+  height: 7vh;
+  background-color: #404040;
+
+}
+footer h5{
+
+      color: white;
+    float: right;
+    /* text-align: center; */
+    margin: 19px 165px 4px 29px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+}
+
+ .footer_nav a{
+    float: left;
+    display: block;
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+
+}
+
+.footer_nav  a:hover {
+    background-color: #e74c3c;
+    color: white;
+}

@@ -5,6 +5,11 @@ router.get('/', (req, res) => {
 });
 
 
+// router.get('/', (req, res) => {
+//     res.render('Contact/contact.ejs')
+// });
+
+
 router.get('/show', (req, res) => {
   res.render('show', {
 
@@ -14,17 +19,10 @@ router.get('/show', (req, res) => {
 });
 
 
-
-
-
-
-
-
-
 // This route serves your `/login` form
-router.get('/login', (req, res) => {
-  res.render('login');
-});
+// router.get('/', (req, res) => {
+//   res.render('/views/users/profile.ejs');
+// });
 
 
 
