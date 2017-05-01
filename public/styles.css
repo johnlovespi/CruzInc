@@ -1,9 +1,6 @@
 *{
   margin:0 auto;
-
-
 }
-
 
 .topnav {
     background-color: #ddd;
@@ -32,9 +29,9 @@ font-weight: 300;
 font-size: 20px;
 }
 .title img{
-  width:630px;
-  height: 350px;
-  padding-left: 25vw;
+    width: 447px;
+    height: 317px;
+    padding: 3vw 0vw 4vw 35vw;
 }
 
 /* Style the links inside the navigation bar */
@@ -80,27 +77,26 @@ section.view1 #logo{
 
 }
 section.view2{
-    background-color: #fbfbfb;
+    background-color: #dddddd;
     width: 100vw;
     height: 106vh;
-  /*padding: 10px 10px 10px 10px;*/
-
 }
 .pic1{
   float: left;
 }
 .pic1 img{
-    margin-left: 3vw;
-    margin-top:5vw;
-    border-radius: 10px;
-    width: 630px;
-    height: 234px;
+     margin-left: 3vw;
+    margin-top: 5vw;
+    border-radius: 7px;
+    width: 613px;
+    height: 257px;
 }
 
 .pic2 img{
     width: 533px;
     height: 255px;
     margin: 1vh 58px;
+     border-radius: 7px;
 }
 
 .text_one {
@@ -123,6 +119,7 @@ section.view2{
 
 .pic2{
   float: right;
+
 
 }
 img{
