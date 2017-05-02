@@ -2,6 +2,33 @@
   margin:0 auto;
 }
 
+img{
+  border-radius: 1.7px;
+}
+
+h3{
+font-family: 'Quicksand', sans-serif;
+text-align: center;
+font-weight: 300;
+font-size: 17px;
+color:black;
+word-spacing: 4px;
+}
+h4{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
+  color:white;
+}
+
+p{
+
+
+       font-size: 70px;
+    padding-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
 .topnav {
     background-color: #ddd;
     overflow: hidden;
@@ -31,7 +58,7 @@ font-size: 20px;
 .title img{
     width: 447px;
     height: 317px;
-    padding: 3vw 0vw 4vw 35vw;
+     margin-left: 33vw;
 }
 
 /* Style the links inside the navigation bar */
@@ -69,8 +96,7 @@ section.view1{
   height: 75vh;
 }
 section.view1 #logo{
-
-      width: 40vw;
+    width: 40vw;
     height: 75vh;
     padding-left: 60vw;
 
@@ -79,73 +105,53 @@ section.view1 #logo{
 section.view2{
     background-color: #dddddd;
     width: 100vw;
-    height: 106vh;
+    height: 145vh;
 }
-.pic1{
-  float: left;
-}
+
 .pic1 img{
-     margin-left: 3vw;
-    margin-top: 5vw;
+    margin-left: 25vw;
+    margin-top: 3vw;
     border-radius: 7px;
-    width: 613px;
+    width: 612px;
     height: 257px;
 }
 
 .pic2 img{
-    width: 533px;
-    height: 255px;
-    margin: 1vh 58px;
-     border-radius: 7px;
-}
+    margin-left: 25vw;
+    margin-top: 3vw;
+    border-radius: 7px;
+    width: 612px;
+    height: 257px;
+  }
 
 .text_one {
     color: #34495e;
     width: 94%;
-    padding-top: 54px;
-    margin: 55px;
-     border: 1px
+   white-space: normal;
+    border: 1px
 }
 
 .text_one h3{
-    padding: 32px 13px 2px 50vw;
-    white-space: normal;
+     white-space: normal;
+    margin: 30px;
 }
 
 .text_two h3{
-    padding: 25px 49vw 16px 53px;
-    white-space: normal;
+
+    width: 94%;
+   white-space: normal;
+    border: 1px
 }
 
-.pic2{
-  float: right;
-
-
-}
-img{
-  border-radius: 1.7px;
+.text_two p{
+     color: #34495e;
+    width: 94%;
+   white-space: normal;
+    border: 1px
 }
 
-h3{
-font-family: 'Quicksand', sans-serif;
-text-align: center;
-font-weight: 300;
-font-size: 17px;
-color:black;
-word-spacing: 4px;
-}
-h4{
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 20px;
-  color:white;
-}
 
-p{
-     font-size: 70px;
-    padding-top: 37px;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-}
+
 
 section.view3 {
     background-color: #dddddd;
@@ -219,10 +225,10 @@ footer h5{
 }
 
  .footer_nav a{
-       float: left;
+        float: left;
     display: block;
     color: black;
-    padding: 15px 20px 13px 19px;
+    padding: 12px 10px 14px 19px;
     text-decoration: none;
     font-size: 14px;
     font-family: 'Anton', sans-serif;
