@@ -108,18 +108,17 @@ footer h5{
     font-weight: 300;
 }
 
- .footer_nav a{
-    float: left;
+.footer_nav a{
+        float: left;
     display: block;
     color: black;
-    padding: 16px 16px;
+    padding: 12px 10px 14px 19px;
     text-decoration: none;
     font-size: 14px;
     font-family: 'Anton', sans-serif;
     font-weight: 300;
 
 }
-
 .footer_nav  a:hover {
     background-color: #e74c3c;
     color: white;
