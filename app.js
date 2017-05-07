@@ -6,7 +6,8 @@ const path           = require('path');
 const bodyParser     = require('body-parser');
 // const dotenv         = require('dotenv').config();
 const homeRoute      = require('./routes/index');
-const contactRoute      = require('./routes/contact');
+const contactRoute   = require('./routes/contact');
+const aboutRoute     = require('./routes/about');
 
 const app = express();
 
@@ -24,6 +25,7 @@ app.use(express.static(path.join(__dirname,'public')));
 
 app.use('/', homeRoute);
 app.use('/contact', contactRoute);
+app.use('/about', aboutRoute);
 
 const PORT = process.env.PORT || process.argv[2] || 3000;
 
