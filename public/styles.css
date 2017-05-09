@@ -1,31 +1,66 @@
+
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
 *{
   margin:0;
 }
 body{
    margin:0;
-   /*background-color: #f1f1f1;*/
-       background-color: #f1f1f7;
+
+   background-color: #f1f1f7;
 }
 
 .container{
   padding-left: 100px;
   padding-right: 100px;
-
   height: 100%;
 }
 
-
-
 .title img{
-    background-color: white;
+  background-color: white;
     padding-left: 33vw;
     height: 217px;
     padding-right: 29.6vw;
-    margin-top: -19px;
+    margin-top: -25px;
     padding-top: 6px;
  }
 
+ img#city{
+ width:500px;
+ height:300px;
+transform: rotate(180deg);
+ border-radius: 7.9px;
+ box-shadow: -15px -14px 26px lightslategrey;
+ margin-left: 6vw;
+}
 
+/*CONTACT STYELS*/
+
+.contact_text h2{
+    color: #7091b1;
+    font-family: 'Anton', sans-serif;
+    font-size: ;
+    margin: 18px 34px 13px 26px;
+
+}
+
+
+.contact_text p{
+ font-family: 'Mallanna', sans-serif;
+    padding: 0px 47px 16px 8px;
+    width: 91%;
+    color: #4a4848;
+
+}
+/*email link*/
+.email{
+  float: right;
+  position: relative;
+  margin-right: 4vw;
+}
 
 h3{
   font-family: 'Quicksand', sans-serif;
@@ -35,45 +70,35 @@ h3{
   color:black;
   word-spacing: 4px;
 }
-h4{
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 20px;
-  color:white;
+
+
+.text_one p{
+  font-size: 70px;
+
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 
-p{
+
+.text_two p{
   font-size: 70px;
-  padding-top: 20px;
+  padding-top: 0px;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
 
 .topnav {
-
- /* background-color: #ddd;*/
   overflow: hidden;
   padding-left: 30vw;
   font-family: 'Anton', sans-serif;
   font-weight: 300;
 
 }
-
-.topnav a{
- margin:0px 20px 0px 20px;
-}
-
-.title h1{
- font-family: 'ABeeZee', sans-serif;
-text-align: center;
-font-weight: 300;
-font-size: 45px;
-color:#34495e;
-}
 .title h3{
   font-family: 'Anton', sans-serif;
-text-align: center;
-font-weight: 300;
-font-size: 20px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
 }
 
 
@@ -120,49 +145,36 @@ section.view1 #logo{
 }
 section.view2{
     background-color: white;
-    height: 187vh;
+    height: 158vh;
 }
 
 .pic1 img{
   margin:4vw 17.5vw 3vw;
-    /*margin-top: 4vw;*/
-    border-radius: 4px;
-    width: 621px;
-    height: 257px;
-    position: relative;
-    /*padding-left: 16vw;*/
+  border-radius: 4px;
+  width: 621px;
+  height: 257px;
+  position: relative;
+
 }
 
 .pic2 img{
  margin:4vw 17.5vw 3vw;
-  /*  margin-top: 4vw;*/
-    border-radius: 4px;
-    width: 621px;
-    height: 257px;
-    position: relative;
-   /* padding-left: 16vw;*/
-  }
+ border-radius: 4px;
+  width: 621px;
+  height: 257px;
+  position: relative;
 
+}
 
 .text_one h3{
-     white-space: normal;
-    margin: 30px;
+  white-space: normal;
+  margin: 30px;
 }
 
 .text_two h3{
     white-space: normal;
     margin: 30px;
 }
-
-.text_two p{
-  /*   color: #34495e;
-    width: 94%;
-   white-space: normal;
-    border: 1px*/
-}
-
-
-
 
 section.view3 {
     background-color: #dddddd;
@@ -190,7 +202,26 @@ h3#text{
 
 
 .view3 a{
+  display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+    border-radius: 3px;
+}
+.left{
+  position: relative;
+}
 
+.view3 a:hover{
+  border-radius: 5px;
+  background-color: #e74c3c;
+  color: white;
+
+}
+.view4 a{
     display: block;
     color: black;
     padding: 14px 16px;
@@ -199,16 +230,43 @@ h3#text{
     font-family: 'Anton', sans-serif;
     font-weight: 300;
     border-radius: 3px;
-
-
 }
-.view3 a:hover{
+
+.view4 a:hover{
    border-radius: 5px;
     background-color: #e74c3c;
     color: white;
 
 }
+/*ABOUT PAGE INFO BOX*/
 
+.inner_container{
+   width: 30%;
+  margin: 1% 1%;
+  text-align: center;
+  float: left;
+  background-color:#EB1D29;
+  width:25vw;
+  height:60vh;
+  border-radius:2px;
+  border: 2px solid #a1a1a1;
+  opacity: 0.6;
+
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
 
 footer h5{
     color: white;
@@ -219,7 +277,6 @@ footer h5{
 }
 
 footer{
-       /*width: 100vw;*/
     height: 8vh;
     background-color: #404040;
 }
@@ -227,7 +284,7 @@ footer{
     float: left;
     display: block;
     color: black;
-       padding: 11px 16px;
+    padding: 11px 16px;
     text-decoration: none;
     font-size: 14px;
     font-family: 'Anton', sans-serif;
@@ -235,9 +292,30 @@ footer{
 
 
 }
-.footer_nav  a:hover {
+.footer_nav a:hover {
     background-color: #e74c3c;
     color: white;
 }
+}
+/*media quuery for phone*/
+
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+.container{
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100%;
+}
+
+
+}
+
+
+
 
 
