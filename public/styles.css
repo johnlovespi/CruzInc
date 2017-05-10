@@ -266,17 +266,52 @@ div.transbox p {
 }
 
 footer h5{
-    color: white;
-    float: right;
-    margin: 19px 165px 4px 29px;
-    font-family: 'Anton', sans-serif;
-    font-weight: 300;
+  color: white;
+  float: right;
+  margin: 19px 165px 4px 29px;
+  font-family: 'Anton', sans-serif;
+  font-weight: 300;
 }
 
 footer{
-    height: 8vh;
-    background-color: #404040;
+  background: #333333;
+  width: 100%;
+  overflow: hidden;
+  opacity: .95;
+
 }
+
+section.about{
+  width: 30%;
+  float: left;
+  margin: 5% 1%;
+  text-align: center;
+
+
+}
+section.about p{
+  font-family: 'Anton', sans-serif;
+  font-weight: 300;
+
+}
+section h2{
+  padding-bottom: 3%;
+  font-family: 'Anton', sans-serif;
+  font-weight: 300;
+
+}
+
+
+section img{
+ width: 69%;
+ height: 257px;
+ position: relative;
+ border-radius: 100%;
+ border: 2px solid gray;
+
+
+}
+
  .footer_nav a{
     float: left;
     display: block;
@@ -477,6 +512,13 @@ section.view3 {
 
 }
 
+section {
+  width: 30%;
+  float:left;
+  margin: 1% 1%;
+  text-align: center;
+
+}
 
 .view_left{
  text-align: center;
