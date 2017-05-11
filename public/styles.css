@@ -375,7 +375,7 @@ and (orientation : portrait) { /* STYLES GO HERE */
 .title img{
      background-color: white;
     padding-left: 0vw;
-    height: 2px;
+    /*height: 2px;*/
     padding-right: 1.6vw;
     margin-top: -25px;
     padding-top: 6px;
@@ -386,7 +386,7 @@ and (orientation : portrait) { /* STYLES GO HERE */
 }
 
 .topnav a {
-    /* float: left; */
+
     display: block;
     color: black;
     padding: 15px 16px;
