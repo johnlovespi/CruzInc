@@ -396,7 +396,7 @@ and (orientation : portrait) { /* STYLES GO HERE */
 
 section.view2{
     background-color: white;
-    height: 195vh;
+    height: 181vh;
     width: 70vw;
 }
 
@@ -414,6 +414,47 @@ section.view2{
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
+.text_one h3 {
+    white-space: normal;
+    margin: 11px;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+    color: black;
+    word-spacing: 4px;
+}
+
+.footer_nav a {
+    float: left;
+    display: block;
+    color: black;
+    padding: 13px 43px;
+    margin-left: 77px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+}
+
+footer h5 {
+    color: white;
+    float: right;
+    margin: -2px 0px 2px 8px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+}
+
+footer {
+    background: #333333;
+    width: 275px;
+    overflow: hidden;
+    opacity: .95;
+}
+
 
 
  }
