@@ -329,7 +329,14 @@ section img{
 
 @media screen and (max-width: 750px) {
 
-
+.title img{
+     background-color: white;
+    padding-left: 0vw;
+    height: 218px;
+    padding-right: 1.6vw;
+    margin-top: -25px;
+    padding-top: 6px;
+ }
 .container{
      padding-right: 96px;
 }
@@ -365,7 +372,14 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation : portrait) { /* STYLES GO HERE */
 
-
+.title img{
+     background-color: none;
+    padding-left: 0vw;
+    height: 0px;
+    padding-right: 0vw;
+    margin-top: 0px;
+    padding-top: 0px;
+ }
 .container{
     padding-right: 96px;
     padding-left: 60px;
