@@ -346,6 +346,14 @@ section img{
     width: 316px;
     height: 219px;
     position: relative;
+}
+
+.pic2 img{
+    margin: 6vw -6vw 7vw;
+    border-radius: 4px;
+    width: 316px;
+    height: 219px;
+    position: relative;
 
 }
 
@@ -385,17 +393,20 @@ and (orientation : portrait) { /* STYLES GO HERE */
 }
 
 section.view2{
-      background-color: white;
+    background-color: white;
     height: 195vh;
     width: 70vw;
 }
 
 
+.pic2 img{
+    margin: 6vw -6vw 7vw;
+    border-radius: 4px;
+    width: 316px;
+    height: 219px;
+    position: relative;
 
-
-
-
-
+}
 
  }
 
