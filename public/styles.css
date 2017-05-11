@@ -357,3 +357,45 @@ section.view2{
 
 }
 
+
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) { /* STYLES GO HERE */
+
+.title img{
+     background-color: white;
+    padding-left: 0vw;
+    height: 218px;
+    padding-right: 1.6vw;
+    margin-top: -25px;
+    padding-top: 6px;
+ }
+.container{
+     padding-right: 96px;
+}
+.pic1 img{
+    margin: 6vw -6vw 7vw;
+    border-radius: 4px;
+    width: 316px;
+    height: 219px;
+    position: relative;
+
+}
+
+section.view2{
+      background-color: white;
+    height: 195vh;
+    width: 70vw;
+}
+
+
+
+
+
+
+
+
+ }
+
