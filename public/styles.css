@@ -381,7 +381,9 @@ and (orientation : portrait) { /* STYLES GO HERE */
     padding-top: 6px;
  }
 .container{
-     padding-right: 96px;
+
+    padding-right: 96px;
+    padding-left: 65px;
 }
 .pic1 img{
     margin: 6vw -6vw 7vw;
@@ -407,6 +409,12 @@ section.view2{
     position: relative;
 
 }
+.text_one p {
+    font-size: 37px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
 
  }
 
