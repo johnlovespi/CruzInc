@@ -486,3 +486,124 @@ color: white;
 
  }
 
+ @media only screen
+ and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape) { /* STYLES GO HERE */
+
+  .title img{
+     background-color: none;
+    padding-left: 0vw;
+    height: 0px;
+    padding-right: 0vw;
+    margin-top: 0px;
+    padding-top: 0px;
+ }
+.container{
+    padding-right: 96px;
+    padding-left: 60px;
+}
+
+.topnav a {
+
+    display: block;
+    color: black;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.pic1 img{
+    margin: 6vw -6vw 7vw;
+    border-radius: 4px;
+    width: 316px;
+    height: 219px;
+    position: relative;
+
+}
+
+section.view2{
+    background-color: white;
+    height: 181vh;
+    width: 70vw;
+}
+
+section.view3 {
+    background-color: #dddddd;
+    height: 5vh;
+    width: 28vw;
+    margin: 60px 0px 55px 21vw;
+    border-radius: 2px;
+    box-shadow: 5px 8px 19px lightslategrey;
+}
+.view3 a {
+    display: block;
+    color: black;
+    padding: 11px 33px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+    border-radius: 3px;
+}
+
+.pic2 img{
+    margin: 6vw -6vw 7vw;
+    border-radius: 4px;
+    width: 316px;
+    height: 219px;
+    position: relative;
+
+}
+.text_one p {
+    font-size: 37px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+.text_one h3 {
+    white-space: normal;
+    margin: 11px;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+    color: black;
+    word-spacing: 4px;
+}
+
+.footer_nav a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 13px 43px;
+    margin-left: 77px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+}
+
+footer h5 {
+    color: white;
+    float: right;
+    margin: -2px 0px 2px 8px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+}
+
+footer {
+color: white;
+    background: #333333;
+    width: 275px;
+    overflow: hidden;
+    opacity: .95;
+}
+
+
+
+
+
+}
+
