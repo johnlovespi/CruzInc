@@ -398,6 +398,24 @@ section.view2{
     width: 70vw;
 }
 
+section.view3 {
+    background-color: #dddddd;
+    height: 5vh;
+    width: 28vw;
+    margin: 60px 0px 55px 21vw;
+    border-radius: 2px;
+    box-shadow: 5px 8px 19px lightslategrey;
+}
+.view3 a {
+    display: block;
+    color: black;
+    padding: 11px 33px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+    border-radius: 3px;
+}
 
 .pic2 img{
     margin: 6vw -6vw 7vw;
