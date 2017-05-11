@@ -371,7 +371,6 @@ section.view2{
 and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation : portrait) { /* STYLES GO HERE */
-
 .title img{
      background-color: white;
     padding-left: 0vw;
@@ -381,9 +380,8 @@ and (orientation : portrait) { /* STYLES GO HERE */
     padding-top: 6px;
  }
 .container{
-
     padding-right: 96px;
-    padding-left: 65px;
+    padding-left: 60px;
 }
 .pic1 img{
     margin: 6vw -6vw 7vw;
