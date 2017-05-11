@@ -457,7 +457,7 @@ h3 {
 .footer_nav a {
     float: left;
     display: block;
-    color: black;
+    color: white;
     padding: 13px 43px;
     margin-left: 77px;
     text-decoration: none;
@@ -475,6 +475,7 @@ footer h5 {
 }
 
 footer {
+color: white;
     background: #333333;
     width: 275px;
     overflow: hidden;
