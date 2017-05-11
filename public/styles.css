@@ -493,15 +493,16 @@ and (orientation : landscape) { /* STYLES GO HERE */
 
   .title img{
      background-color: none;
-    padding-left: 0vw;
-    height: 0px;
+    padding-left: 4vw;
+    height: 50px;
+    width: 65px;
     padding-right: 0vw;
     margin-top: 0px;
     padding-top: 0px;
  }
 .container{
     padding-right: 96px;
-    padding-left: 60px;
+    padding-left: 40px;
 }
 
 .topnav a {
