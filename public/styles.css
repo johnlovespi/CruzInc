@@ -329,14 +329,7 @@ section img{
 
 @media screen and (max-width: 750px) {
 
-.title img{
-     background-color: white;
-    padding-left: 0vw;
-    height: 218px;
-    padding-right: 1.6vw;
-    margin-top: -25px;
-    padding-top: 6px;
- }
+
 .container{
      padding-right: 96px;
 }
