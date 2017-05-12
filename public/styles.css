@@ -176,9 +176,7 @@ section.view3 {
     margin: 60px 0px 60px 36vw;
     border-radius: 2px;
     box-shadow: 5px 8px 19px lightslategrey;
-
-}
-
+  }
 
 .view_left{
  text-align: center;
@@ -367,16 +365,13 @@ section.view2{
 
 
 
-/*@media only screen
+@media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px)
-and (orientation : portrait) { /* STYLES GO HERE */
+and (orientation : portrait) { /* STYLES GO HERE
 
 
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (-webkit-min-device-pixel-ratio: 2) { /* STYLES GO HERE */
+  /* STYLES GO HERE */
 
 
 
