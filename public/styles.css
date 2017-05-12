@@ -363,6 +363,7 @@ section.view2{
 
 }
 
+/*********************************PORTRAIT SCAPE MEDIA *************************************************/
 
 
 @media only screen
@@ -490,6 +491,8 @@ footer {
 
  }
 
+
+/*********************************LANDDDDDD SCAPE MEDIA *************************************************/
  @media only screen
  and (min-device-width : 375px)
  and (max-device-width : 667px)
@@ -506,15 +509,15 @@ and (orientation : landscape) { /* STYLES GO HERE */
 
 .topnav {
   overflow: hidden;
-  padding-left: 50%;
+  padding-left: 10vw;
   font-family: 'Anton', sans-serif;
   font-weight: 300;
 
 }
 
 .container{
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 50%;
+    padding-left: 50%;
 }
 
 
@@ -534,6 +537,11 @@ and (orientation : landscape) { /* STYLES GO HERE */
     height: 219px;
     position: relative;
 
+}
+section.view2{
+    background-color: white;
+    height: 181vh;
+    width: 100%;
 }
 
 
