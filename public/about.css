@@ -376,19 +376,6 @@ and (orientation : portrait) { /* STYLES GO HERE
 
 
 
-.title img{
-     background-color: none;
-    padding-left: 0vw;
-    height: 0px;
-    padding-right: 0vw;
-    margin-top: 0px;
-    padding-top: 0px;
- }
-.container{
-    padding-right: 96px;
-    padding-left: 60px;
-}
-
 .topnav a {
 
     display: block;
@@ -411,82 +398,57 @@ section.view2{
     height: 181vh;
     width: 70vw;
 }
+.title img{
+     background-color: none;
+    padding-left: 10vw;
+    height: 0px;
+    padding-right: 0vw;
+    margin-top: 0px;
+    padding-top: 0px;
+ }
 
-section.view3 {
-    background-color: #dddddd;
-    height: 5vh;
-    width: 28vw;
-    margin: 60px 0px 55px 21vw;
-    border-radius: 2px;
-    box-shadow: 5px 8px 19px lightslategrey;
-}
-.view3 a {
-    display: block;
-    color: black;
-    padding: 11px 33px;
-    text-decoration: none;
-    font-size: 14px;
+
+.topnav {
+    overflow: hidden;
+    margin: 0% 24% 1% 36%;
     font-family: 'Anton', sans-serif;
     font-weight: 300;
-    border-radius: 3px;
 }
 
-.pic2 img{
-    margin: 6vw -6vw 7vw;
+
+
+.container{
+    padding-right: 50%;
+    padding-left: 50%;
+}
+
+
+img#city {
+    margin: 4% 9% 0% -21%;
     border-radius: 4px;
-    width: 316px;
+
     height: 219px;
     position: relative;
 
-}
-.text_one p {
-    font-size: 37px;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-}
-.text_one h3 {
-    white-space: normal;
-    margin: 11px;
+    transform: rotate(180deg);
+
+    box-shadow: -15px -14px 26px lightslategrey;
+
 }
 
-h3 {
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    font-weight: 300;
-    font-size: 13px;
-    color: black;
-    word-spacing: 4px;
-}
-
-.footer_nav a {
-    float: left;
-    display: block;
-    color: white;
-    padding: 13px 43px;
-    margin-left: 77px;
-    text-decoration: none;
-    font-size: 14px;
+.contact_text h2 {
+    color: #7091b1;
     font-family: 'Anton', sans-serif;
-    font-weight: 300;
+    font-size: ;
+    margin: 16px 16px 11px 48px;
 }
 
-footer h5 {
-    color: white;
-    float: right;
-    margin: -2px 0px 2px 8px;
-    font-family: 'Anton', sans-serif;
-    font-weight: 300;
+.contact_text p {
+    font-family: 'Mallanna', sans-serif;
+    /* padding: 4px 15px 21px 28px; */
+    width: 130%;
+    color: #4a4848;
 }
-
-footer {
-    margin:0;
-    color: white;
-    background: #333333;
-    width: 275px;
-    overflow: hidden;
-    opacity: .95;
-}
-
 
 
  }
