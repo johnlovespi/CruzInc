@@ -490,4 +490,57 @@ footer {
 
  }
 
+ @media only screen
+ and (min-device-width : 375px)
+ and (max-device-width : 667px)
+and (orientation : landscape) { /* STYLES GO HERE */
+
+.title img{
+     background-color: none;
+    padding-left: 10vw;
+    height: 0px;
+    padding-right: 0vw;
+    margin-top: 0px;
+    padding-top: 0px;
+ }
+
+.topnav {
+  overflow: hidden;
+  padding-left: 15vw;
+  font-family: 'Anton', sans-serif;
+  font-weight: 300;
+
+}
+
+.container{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+
+.pic1 img{
+    margin: 6vw 50% 1vw 50%;
+    border-radius: 4px;
+    width: 316px;
+    height: 219px;
+    position: relative;
+
+}
+
+.pic2 img{
+    margin: 6vw 50% 1vw 50%;
+    border-radius: 4px;
+    width: 316px;
+    height: 219px;
+    position: relative;
+
+}
+section.view2 {
+    background-color: white;
+    height: 164vh;
+    width: 70vw;
+}
+
+}
+
 
