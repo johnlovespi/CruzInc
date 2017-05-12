@@ -506,19 +506,20 @@ and (orientation : landscape) { /* STYLES GO HERE */
 
 .topnav {
   overflow: hidden;
-  padding-left: 15vw;
+  padding-left: 25vw;
   font-family: 'Anton', sans-serif;
   font-weight: 300;
 
 }
 
 .container{
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-right: 50%;
+    padding-left: 50%;
 }
 
 
 .pic1 img{
+
     margin: 6vw 50% 1vw 50%;
     border-radius: 4px;
     width: 316px;
@@ -536,10 +537,28 @@ and (orientation : landscape) { /* STYLES GO HERE */
 
 }
 section.view2 {
+
     background-color: white;
-    height: 164vh;
+    height: 175vh;
     width: 70vw;
 }
+footer {
+    margin:0;
+    color: white;
+    background: #333333;
+    width: 275px;
+    overflow: hidden;
+    opacity: .95;
+}
+
+footer h5 {
+    color: white;
+    float: right;
+    margin: -2px 0px 2px 8px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 300;
+}
+
 
 }
 
