@@ -483,7 +483,8 @@ footer h5 {
 }
 
 footer {
-color: white;
+    margin:0;
+    color: white;
     background: #333333;
     width: 275px;
     overflow: hidden;
