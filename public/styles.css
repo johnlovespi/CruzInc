@@ -541,7 +541,7 @@ and (orientation : landscape) { /* STYLES GO HERE */
 section.view2{
     background-color: white;
     height: 181vh;
-    width: 100%;
+    width: 140px;
 }
 
 
