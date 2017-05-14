@@ -371,11 +371,7 @@ and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation : portrait) { /* STYLES GO HERE
 
-
   /* STYLES GO HERE */
-
-
-
 .title img{
      background-color: none;
     padding-left: 0vw;
@@ -389,7 +385,7 @@ and (orientation : portrait) { /* STYLES GO HERE
     padding-left: 60px;
 }
 
-.topnav a {
+.topnav a{
 
     display: block;
     color: black;
@@ -406,9 +402,9 @@ and (orientation : portrait) { /* STYLES GO HERE
 
 }
 
-section.view2{
+section.view2 {
     background-color: white;
-    height: 181vh;
+    height: 162vh;
     width: 70vw;
 }
 
@@ -416,11 +412,11 @@ section.view3 {
     background-color: #dddddd;
     height: 5vh;
     width: 28vw;
-    margin: 60px 0px 55px 21vw;
+    margin: 32px 80px;
     border-radius: 2px;
     box-shadow: 5px 8px 19px lightslategrey;
-}
-.view3 a {
+  }
+.view3 a{
     display: block;
     color: black;
     padding: 11px 33px;
@@ -439,12 +435,21 @@ section.view3 {
     position: relative;
 
 }
+.text_two p {
+    font-size: 37px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
 .text_one p {
     font-size: 37px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
 }
 .text_one h3 {
+    white-space: normal;
+    margin: 11px;
+}
+.text_two h3 {
     white-space: normal;
     margin: 11px;
 }
