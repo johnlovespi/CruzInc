@@ -431,21 +431,13 @@ section.view3 {
     margin: 11px;
 }
 
-.service_img{
-  width: 0%;
-  padding: 0%;
-
-}
-section.service_img img{
-  height: 0px;
-  width: 0px;
-}
 
 
 .text_two .service_img img{
-  margin: 0%;
-  border-radius: 0%;
-  width: 0%;
+     width: 0%;
+    height: 3%;
+    padding-left: 31px;
+
 }
 
 
