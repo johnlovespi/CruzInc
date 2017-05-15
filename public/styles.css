@@ -433,8 +433,12 @@ section.view3 {
 
 .service_img{
   width: 0%;
-  padding: 0;
+  padding: 0%;
 
+}
+section img{
+  height: 0px;
+  width: 0px;
 }
 
 
