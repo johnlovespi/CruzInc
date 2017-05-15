@@ -137,8 +137,8 @@ section.view1 #logo{
 
 }
 section.view2{
-     background-color: white;
-    height: 172vh;
+    background-color: white;
+    height: 217vh;
 }
 
 .pic1 img{
@@ -160,8 +160,8 @@ section.view2{
 }
 
 .text_one h3{
-  white-space: normal;
-  margin: 30px;
+    white-space: normal;
+    margin: 11px;
 }
 
 .text_two h3{
@@ -176,7 +176,22 @@ section.view3 {
     margin: 60px 0px 60px 36vw;
     border-radius: 2px;
     box-shadow: 5px 8px 19px lightslategrey;
-  }
+}
+.service_img{
+  width: 101%;
+  padding: 9px 73px;
+
+}
+
+
+.text_two .service_img img{
+  margin: 0% .2%;
+  border-radius: 2%;
+  width: 28%;
+
+
+
+}
 
 .view_left{
  text-align: center;
@@ -380,6 +395,8 @@ section.view3 {
     border-radius: 2px;
     box-shadow: 5px 8px 19px lightslategrey;
   }
+
+
 .view3 a{
     display: block;
     color: black;
