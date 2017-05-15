@@ -183,14 +183,10 @@ section.view3 {
 
 }
 
-
 .text_two .service_img img{
   margin: 0% .2%;
   border-radius: 2%;
   width: 28%;
-
-
-
 }
 
 .view_left{
@@ -434,6 +430,20 @@ section.view3 {
     white-space: normal;
     margin: 11px;
 }
+
+.service_img{
+  width: 0%;
+  padding: 0;
+
+}
+
+
+.text_two .service_img img{
+  margin: 0%;
+  border-radius: 0%;
+  width: 0%;
+}
+
 
 h3 {
     font-family: 'Quicksand', sans-serif;
