@@ -447,7 +447,13 @@ section.view3 {
     padding-left: 31px;
 
 }
+.number{
+   float: left;
+    width: 122px;
+    font-family: monospace;
+    font-size: large;
 
+}
 
 h3 {
     font-family: 'Quicksand', sans-serif;
