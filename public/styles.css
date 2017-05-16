@@ -106,6 +106,14 @@ h3{
     text-decoration: none;
     font-size: 14px;
 }
+.number{
+      padding: 3% 12%;
+    float: left;
+    font-family: monospace;
+    font-size: large;
+}
+
+
 
 .topnav a:hover {
     background-color: #e74c3c;
@@ -138,7 +146,7 @@ section.view1 #logo{
 }
 section.view2{
     background-color: white;
-    height: 217vh;
+    height: 200vh;
 }
 
 .pic1 img{
@@ -379,7 +387,7 @@ and (orientation : portrait) { /* STYLES GO HERE
 
 section.view2 {
     background-color: white;
-    height: 173vh;
+    height: 169vh;
     width: 70vw;
 }
 
