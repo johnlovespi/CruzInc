@@ -5,10 +5,14 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <!-- <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet"><script src="javascript.js"></script> -->
 
+<!-- link for carasoul -->
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ --><!-- link for carasoul -->
+
+ <!--ss/4/w3.css"> -->
+
   <link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet">
-
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
@@ -22,15 +26,17 @@
   <section class="topnav">
     <a href="/">Home</a>
     <a href="/contact">Contact</a>
- <!--  -->
+
     <a href="https://www.facebook.com/CruzPaintz?ref=br_rs"><i class="fa fa-facebook-square" style="font-size:20px;color:white;"></i></a>
     <a href="cruzpaintzinc@gmail.com"><i class="fa fa-google" style="font-size:20px;color:white;" id="left"></i></a>
-    <div class="number">347 517 9754</div>
+    <div class="number">1.347.517.9754</div>
   </section>
 <div class="title">
     <br>
    <img src="original.jpg" alt="">
 </div>
+
+
   <section class="view2">
     <aside class="pic1">
        <img src="image1.JPEG" alt="">
@@ -44,20 +50,41 @@
 
   <div class="text_two">
         <aside class="pic2">
-           <img src="IMG_0058.JPEG" alt="" style="">
+           <img src="IMG_0058.JPEG" >
         </aside>
           <p>services</p>
           <div class="service_img">
             <img src="IMG_0150.JPG" alt="">
             <img src="IMG_0153.JPG" alt="">
             <img src="IMG_0156.JPG" alt="">
-          </div>
+
             <h3> Our creative teams are able to
             complete any clients requests at a variety of locations. Cruz Paintz happily provides services to schools, offices, clinics, nurseries and of course your home. We take pride in helping our customers bring life back into their homes, from simply changing the color of your
             living room, to an intricate mural in your children's bedroom.
         </h3>
+
+    </div>
+  <div class="slide_header">
+      <h1>Responses</h1>
   </div>
+  </div>
+<!-- carousel -->
+<div class="mySlides">
+  <p>Ofdasfsdfas</p>
+</div>
+<div class="mySlides">
+  <p>Only !!!</p>
+</div>
+<div class="mySlides">
+  <p>asd</p>
+</div>
+
 </section>
+
+<!-- carousel -->
+
+
+
 <section class="view3">
       <div class="view_left">
       <a href="/contact">Contact</a>
@@ -74,9 +101,28 @@
 
        <h5 id="left">© 2017 Created by Iconic All rights reserved.</h5>
     </div>
+
 </footer>
 
 </div>
+
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block";
+    setTimeout(carousel, 2000);
+}
+</script>
 
   </body>
   </html>
