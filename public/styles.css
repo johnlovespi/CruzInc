@@ -411,7 +411,7 @@ and (orientation : portrait) { /* STYLES GO HERE
 section.view2 {
     background-color: white;
     height: 200vh;
-
+    width: 275px;
 }
 
 section.view3 {
@@ -461,9 +461,6 @@ section.view3 {
     white-space: normal;
     margin: 11px;
 }
-
-
-
 .text_two .service_img img{
      width: 0%;
     height: 3%;
@@ -522,7 +519,6 @@ footer {
     overflow: hidden;
     opacity: .95;
 }
-
 
 
 
