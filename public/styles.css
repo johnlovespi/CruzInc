@@ -391,6 +391,13 @@ and (orientation : portrait) { /* STYLES GO HERE
     padding-left: 60px;
 }
 
+.title {
+    width: 0%;
+    height: 0%;
+    margin-top: 0px;
+    margin-bottom: -6%;
+}
+
 .topnav a{
 
     display: block;
@@ -422,7 +429,6 @@ section.view3 {
     border-radius: 2px;
     box-shadow: 5px 8px 19px lightslategrey;
   }
-
 
 .view3 a{
     display: block;
@@ -468,10 +474,10 @@ section.view3 {
 
 }
 .number{
-   float: left;
-    width: 122px;
-    font-family: monospace;
-    font-size: large;
+   float: right;
+   width: 122px;
+   font-family: monospace;
+   font-size: large;
 
 }
 
